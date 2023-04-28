@@ -1,0 +1,7 @@
+POST http://localhost:4000/girl/add
+
+###
+Get http://localhost:4000/girl/getGirlById
+?id=1
+
+
