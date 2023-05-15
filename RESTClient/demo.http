@@ -1,7 +1,19 @@
 POST http://localhost:4000/girl/add
+Content-Type: application/json
+
+{
+    "id":4,
+    "name":"123",
+    "age":30
+}
 
 ###
 Get http://localhost:4000/girl/getGirlById
 ?id=1
 
 
+###
+GET http://localhost:4000/girl/findGirlById/2
+
+###
+GET http://localhost:4000/girl/findGirlById/2/jspang
